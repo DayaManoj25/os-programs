@@ -1,0 +1,6 @@
+MOV AX, [1100];
+MOV DX, 0;
+MOV BX, [1102]
+DIV BX
+MOV [1106], DX
+HLT
